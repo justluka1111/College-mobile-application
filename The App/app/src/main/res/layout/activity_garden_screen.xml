@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GardenScreen">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="207dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="225dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="36dp"
+        android:text="Garden Maintenance"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="275dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="100dp"
+        android:text="Fees: R750 Purpose: To provide basic knowledge of watering, pruning and planting in a domestic garden. Content:• Water restrictions and the watering requirements of indigenous and exotic plants • Pruning and propagation of plants • Planting techniques for different plant types"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="126dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="94dp"
+        android:text="APPLY"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="157dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="92dp"
+        android:text="Fees Calculator"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.finalproject3">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Finalproject3"
+        tools:targetApi="31">
+        <activity
+            android:name=".thank_you"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Week_form"
+            android:exported="false" />
+        <activity
+            android:name=".Form"
+            android:exported="false" />
+        <activity
+            android:name=".Land_Scaping"
+            android:exported="false" />
+        <activity
+            android:name=".First_Aid"
+            android:exported="false" />
+        <activity
+            android:name=".Life_Skills"
+            android:exported="false" />
+        <activity
+            android:name=".sewing"
+            android:exported="false" />
+        <activity
+            android:name=".GardenScreen"
+            android:exported="false" />
+        <activity
+            android:name=".CookingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ChildMinding"
+            android:exported="false" />
+        <activity
+            android:name=".SixWeekscreen"
+            android:exported="false" />
+        <activity
+            android:name=".Six_monthpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

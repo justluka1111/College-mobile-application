@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".landscaping">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="216dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="165dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:text="Landscaping"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="275dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="24dp"
+        android:text="Fees: R1500Purpose: To provide landscaping services for new and established gardens Content: •Indigenous and exotic plants and trees •Fixed structures (fountains, statues, benches, tables, built-in braai) •Balancing of plant and trees in a garden •Aesthetics of plant shapes and colours •Garden layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="36dp"
+        android:text="Apply"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="148dp"
+        android:layout_height="66dp"
+        android:text="fees calculator"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.265" />
+</androidx.constraintlayout.widget.ConstraintLayout>

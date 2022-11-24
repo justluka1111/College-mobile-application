@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="405dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="11dp"
+        android:text="In 2018, Empowering the Nation was founded and now provides courses in Johannesburg. In order to empower themselves and provide more marketable skills, hundreds of domestic workers and gardeners have received training through both the six-month long learning partnerships and the six-week short skills training programmes."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnmonths"
+        android:layout_width="160dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="103dp"
+        android:text="SIX-MONTHS"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnweeks"
+        android:layout_width="160dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="103dp"
+        android:text="SIX-WEEKS"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="267dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="159dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnweeks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/red" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="147dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmonths"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/p" />
+</androidx.constraintlayout.widget.ConstraintLayout>
